@@ -1,0 +1,22 @@
+************* Module premium_calculator
+premium_calculator.py:176:0: C0305: Trailing newlines (trailing-newlines)
+premium_calculator.py:27:0: C0103: Function name "calculatePremium" doesn't conform to snake_case naming style (invalid-name)
+premium_calculator.py:27:0: W0102: Dangerous default value [] as argument (dangerous-default-value)
+premium_calculator.py:27:0: R0913: Too many arguments (6/5) (too-many-arguments)
+premium_calculator.py:27:0: R0917: Too many positional arguments (6/5) (too-many-positional-arguments)
+premium_calculator.py:44:0: C0103: Function name "ageFromDob" doesn't conform to snake_case naming style (invalid-name)
+premium_calculator.py:51:0: C0103: Function name "policyNumber" doesn't conform to snake_case naming style (invalid-name)
+premium_calculator.py:56:0: C0103: Function name "saveQuote" doesn't conform to snake_case naming style (invalid-name)
+premium_calculator.py:65:0: C0103: Function name "importPolicies" doesn't conform to snake_case naming style (invalid-name)
+premium_calculator.py:83:0: C0103: Function name "fetchRates" doesn't conform to snake_case naming style (invalid-name)
+premium_calculator.py:101:0: C0103: Function name "importClaimDocuments" doesn't conform to snake_case naming style (invalid-name)
+premium_calculator.py:111:0: C0103: Function name "monthlyInstalment" doesn't conform to snake_case naming style (invalid-name)
+premium_calculator.py:113:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+premium_calculator.py:119:0: C0103: Function name "isAuthorised" doesn't conform to snake_case naming style (invalid-name)
+premium_calculator.py:124:0: C0103: Function name "renewalDue" doesn't conform to snake_case naming style (invalid-name)
+premium_calculator.py:132:0: C0103: Function name "printQuotes" doesn't conform to snake_case naming style (invalid-name)
+premium_calculator.py:136:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+
+------------------------------------------------------------------
+Your code has been rated at 8.28/10 (previous run: 5.73/10, +2.55)
+

@@ -1,0 +1,13 @@
+Quote 1: 6000.0
+Quote 2 (same customer details): 5500.0
+Non-smoker aged 50: 7970.0
+Life with stacked discounts: -800.0
+Age from DOB 31-12-1990: 36
+Monthly instalment: 664
+Renewal due: 2026-03-15
+Imported: [('health', 40, 300000)]
+Saved as: POL-745473
+Authorised: True
+Server would listen on 0.0.0.0
+===== Quote Book =====
+1 POL-745473 Kiran Rs. 6000.0
