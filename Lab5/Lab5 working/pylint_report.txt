@@ -1,6 +1,4 @@
-************* Module premium_calculator
-premium_calculator.py:282:0: C0305: Trailing newlines (trailing-newlines)
 
-------------------------------------------------------------------
-Your code has been rated at 9.94/10 (previous run: 8.28/10, +1.65)
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.94/10, +0.06)
 

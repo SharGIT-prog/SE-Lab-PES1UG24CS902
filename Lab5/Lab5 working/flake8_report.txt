@@ -1,2 +1,1 @@
 premium_calculator.py:37:80: E501 line too long (80 > 79 characters)
-premium_calculator.py:282:1: W391 blank line at end of file
