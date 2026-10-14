@@ -1,22 +1,31 @@
-Run started:2026-10-14 03:24:45.900703+00:00
+Run started:2026-10-14 04:46:19.754965+00:00
 
 Test results:
-	No issues identified.
+>> Issue: [B310:blacklist] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+   Severity: Medium   Confidence: High
+   CWE: CWE-22 (https://cwe.mitre.org/data/definitions/22.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_calls.html#b310-urllib-urlopen
+   Location: ./premium_calculator.py:155:13
+154	    try:
+155	        with urllib.request.urlopen(request, timeout=10) as response:
+156	            if response.status != 200:
+
+--------------------------------------------------
 
 Code scanned:
-	Total lines of code: 143
+	Total lines of code: 218
 	Total lines skipped (#nosec): 0
-	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 1
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
 
 Run metrics:
 	Total issues (by severity):
 		Undefined: 0
 		Low: 0
-		Medium: 0
+		Medium: 1
 		High: 0
 	Total issues (by confidence):
 		Undefined: 0
 		Low: 0
 		Medium: 0
-		High: 0
+		High: 1
 Files skipped (0):
